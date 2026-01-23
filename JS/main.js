@@ -300,7 +300,7 @@ let heightScore = students.filter((s)=>{
         return true
     }
 })
-
+d
 console.log(student)
 
 console.log('doble_score',doble_score)
