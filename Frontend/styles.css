@@ -107,3 +107,20 @@ textarea {
 .button:active {
     transform: scale(0.98);
 }
+
+.message {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 6px ;
+    display: none;
+}
+
+.message.success {
+    background-color: #0ac960;
+    display: block;
+}
+
+.message.denger{
+    background-color: #f8d7da;
+    display: block;
+}
