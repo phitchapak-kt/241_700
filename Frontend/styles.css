@@ -53,7 +53,8 @@ body {
 }
 
 /* ปรับแต่ง Input และ Textarea */
-.form, textarea {
+.form,
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -62,7 +63,8 @@ body {
     transition: border-color 0.3s;
 }
 
-.form:focus, textarea:focus {
+.form:focus,
+textarea:focus {
     border-color: #4CAF50;
 }
 
@@ -77,7 +79,7 @@ textarea {
     gap: 20px;
 }
 
-.form-input > div {
+.form-input>div {
     margin-top: 5px;
 }
 
@@ -111,7 +113,8 @@ textarea {
 .message {
     background-color: lightgray;
     padding: 10px;
-    margin-bottom: 6px ;
+    margin-bottom: 10px;
+    border-radius: 6px;
     display: none;
 }
 
@@ -120,7 +123,7 @@ textarea {
     display: block;
 }
 
-.message.denger{
+.message.danger {
     background-color: #f8d7da;
     display: block;
 }
