@@ -53,7 +53,7 @@ body {
 }
 
 /* ปรับแต่ง Input และ Textarea */
-.form,
+.form,               
 textarea {
     width: 100%;
     padding: 10px;
